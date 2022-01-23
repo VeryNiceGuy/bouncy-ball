@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
+		<script type="text/javascript" src="Ball.js"></script>
+		<script type="text/javascript">
+		function init() {
+			var ball = new Ball(document.getElementById("testCanvas"),
+								150,
+								150,
+								50);
+		}
+		</script>
+	</head>
+
+	<body onload="init()" style="margin:0; padding:0">
+		<canvas id="testCanvas" width="800" height="600" style="background-color:blue"> </canvas> 
+	</body>
+</html>
